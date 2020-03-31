@@ -1,1 +1,8 @@
 Redirect 301 / http://helenala.com
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule .* 404.html [L]
+</IfModule>
