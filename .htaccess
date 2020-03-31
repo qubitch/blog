@@ -1,4 +1,5 @@
 Redirect 301 / http://helenala.com
+RedirectMatch 301 /(.*) http://helenala.com$1
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
