@@ -1,2 +1,2 @@
-# blog
-redirect to helenala.com
+# hi
+ok
